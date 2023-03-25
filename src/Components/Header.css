@@ -1,0 +1,70 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 24px;
+    border: 1px solid #e3e3e3;
+    border-top: unset;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.header__figure {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* .header__figure,
+.header__menu,
+.header__book {
+    width: 33%;
+} */
+
+.header__figure img {
+    width: 50px;
+    height: 100%;
+}
+
+.header__figcaption {
+    padding-left: 16px;
+}
+
+.header__ul {
+    display: flex;
+}
+
+.header__ul li {
+    list-style-type: none;
+    padding: 6px 20px;
+}
+
+.header__ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header__menu {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.header__book {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.header__book button {
+    padding: 8px 24px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+}
+
+.header__book:hover button {
+    transform: scale(0.9);
+}

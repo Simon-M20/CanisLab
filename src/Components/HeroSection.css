@@ -1,0 +1,97 @@
+.hero__title {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 600;
+    font-size: 5.2rem;
+    line-height: 85px;
+}
+
+.hero__figure {
+    position: relative;
+    height: 101px;
+}
+
+.hero__figure img {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.hero__figure.hero__figure-main img {
+    transform: scale(0.85) translateY(30px);
+}
+
+.hero__figure.hero__figure-second img {
+    transform: scale(0.7) rotate(25deg) translateX(-45px) translateY(-25px);
+}
+
+.hero__button {
+    background-color: #fadc5e;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 14px 8px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative;
+    /* height: 0px; */
+    /* width: 20px; */
+}
+
+.hero__button img {
+    width: 25px;
+    margin-left: 8px;
+    transform: translateY(2px);
+    /* padding-top: 4px; */
+}
+
+.hero__health-icon {
+    position: absolute;
+    right: 40px;
+    bottom: 90px;
+    transform: rotate(25deg);
+}
+
+.hero__health-icon img {
+    width: 100px;
+}
+
+.hero__button:hover {
+    transform: scale(1.1);
+}
+
+/* .hero__button .animate-ping {
+    right: 4px;
+    top: -4px;
+} */
+
+.hero__bulldog {
+    width: 300px;
+    position: relative;
+    top: 15px;
+}
+
+.hero__bulldog img {
+    border-top-right-radius: 125px;
+    border-top-left-radius: 125px;
+}
+
+.hero__bone {
+    position: absolute;
+    left: 35px;
+    top: 80px;
+    background: #fff;
+    padding: 0px;
+    border-radius: 50px;
+}
+
+.hero__bone-icon {
+    /* position: absolute; */
+    width: 80px;
+}
+
+.hero__wistle-icon {
+    position: absolute;
+    width: 120px;
+    bottom: -40px;
+    left: 25px;
+}
