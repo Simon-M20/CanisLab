@@ -1,0 +1,26 @@
+.spinning-wrapper {
+    position: relative;
+    width: 40%;
+    height: 197.5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.2em;
+    font-weight: 600;
+    filter: brightness(1.5) contrast(1.5);
+    /* transform: scale(0.9); */
+}
+
+.spinning-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.spinning-text span {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 100px;
+}

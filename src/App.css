@@ -1,1 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+.home__card {
+    border: 1.5px solid #000;
+    position: relative;
+    border-radius: 25px;
+    /* width: 50%; */
+}
+
+.home__card-main {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__figure {
+    position: relative;
+    height: 250px;
+    width: 60%;
+}
+
+.home__figure img {
+    position: absolute;
+    left: -50px;
+    top: -25px;
+    width: 200px;
+    /* mix-blend-mode: color; */
+}
+
+.home__figure figcaption {
+    position: relative;
+}
